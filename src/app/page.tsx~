@@ -1,0 +1,95 @@
+export default function Wallet() {
+  return (
+      <div className="max-w-[430px] mx-auto p-5 font-sans bg-gray-50">
+          {/* Balance Section */}
+          <div className="bg-white rounded-xl p-5 mb-5">
+              <div className="space-y-5">
+                  <div>
+                      <h2 className="text-gray-600 text-base">Card Balance</h2>
+                      <h1 className="text-3xl font-medium my-1">$17.30</h1>
+                      <p className="text-gray-600 text-sm">$1,482.70 Available</p>
+                  </div>
+
+                  <div>
+                      <p className="font-medium">No Payment Due</p>
+                      <p className="text-gray-600 text-sm">You've paid your September balance.</p>
+                  </div>
+              </div>
+
+              <div className="mt-5 pt-5 border-t border-gray-100">
+                  <p className="text-gray-600">Daily Points</p>
+                  <p className="text-green-700 font-bold">+55k</p>
+              </div>
+          </div>
+
+          {/* Transactions Section */}
+          <div className="bg-white rounded-xl p-5">
+              <h2 className="text-lg font-medium mb-4">Latest Transactions</h2>
+              <div className="space-y-4">
+                  <div className="flex items-center py-3 border-b border-gray-100">
+                      <div className="w-10 h-10 bg-black rounded-lg mr-3"></div>
+                      <div className="flex-grow">
+                          <p className="font-medium">Apple</p>
+                          <p className="text-gray-600 text-xs">Pending - Card Number Used</p>
+                      </div>
+                      <p className="font-medium">$14.06</p>
+                  </div>
+
+                  <div className="flex items-center py-3 border-b border-gray-100">
+                      <div className="w-10 h-10 bg-blue-500 rounded-lg mr-3"></div>
+                      <div className="flex-grow">
+                          <p className="font-medium">Payment</p>
+                          <p className="text-gray-600 text-xs">From JPMorgan Chase Bank</p>
+                      </div>
+                      <p className="font-medium text-green-700">+$174.00</p>
+                  </div>
+
+                  <div className="flex items-center py-3 border-b border-gray-100">
+                      <div className="w-10 h-10 bg-black rounded-lg mr-3"></div>
+                      <div className="flex-grow">
+                          <p className="font-medium">Apple</p>
+                          <p className="text-gray-600 text-xs">Card Number Used</p>
+                      </div>
+                      <p className="font-medium">$3.24</p>
+                  </div>
+
+                  <div className="flex items-center py-3 border-b border-gray-100">
+                      <div className="w-10 h-10 bg-blue-500 rounded-lg mr-3"></div>
+                      <div className="flex-grow">
+                          <p className="font-medium">Payment</p>
+                          <p className="text-gray-600 text-xs">From JPMorgan Chase Bank</p>
+                      </div>
+                      <p className="font-medium text-green-700">+$99.71</p>
+                  </div>
+
+                  <div className="flex items-center py-3 border-b border-gray-100">
+                      <div className="w-10 h-10 bg-blue-500 rounded-lg mr-3"></div>
+                      <div className="flex-grow">
+                          <p className="font-medium">Payment</p>
+                          <p className="text-gray-600 text-xs">From JPMorgan Chase Bank</p>
+                      </div>
+                      <p className="font-medium text-green-700">+$73.58</p>
+                  </div>
+
+                  <div className="flex items-center py-3 border-b border-gray-100">
+                      <div className="w-10 h-10 bg-blue-600 rounded-lg mr-3"></div>
+                      <div className="flex-grow">
+                          <p className="font-medium">IKEA</p>
+                          <p className="text-gray-600 text-xs">Round Rock, TX</p>
+                      </div>
+                      <p className="font-medium">$21.61</p>
+                  </div>
+
+                  <div className="flex items-center py-3 border-b border-gray-100">
+                      <div className="w-10 h-10 bg-red-600 rounded-lg mr-3"></div>
+                      <div className="flex-grow">
+                          <p className="font-medium">Target</p>
+                          <p className="text-gray-600 text-xs">Cedar Park, TX</p>
+                      </div>
+                      <p className="font-medium">$73.58</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  );
+}
